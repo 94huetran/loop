@@ -17,7 +17,8 @@ public class Print20PrimeNumber {
                 }
             }
             if (isPrime) {
-                System.out.println(n);
+
+                System.out.println(count+1+": "+n);
                 count++;
             }
             n++;
