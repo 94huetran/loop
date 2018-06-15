@@ -5,11 +5,11 @@ public class Print20PrimeNumber {
         while (count < 20) {
             boolean isPrime = true;
             if (n < 2) {
-                isPrime =false;
-            }else {
+                isPrime = false;
+            } else {
                 int i = 2;
-                while (i < n) {
-                    if(n%i== 0){
+                while (i <= n / 2) {
+                    if (n % i == 0) {
                         isPrime = false;
                         break;
                     }
